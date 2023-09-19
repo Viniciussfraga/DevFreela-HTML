@@ -1,0 +1,30 @@
+.vf-wrapper{
+    max-width: var(--vf-main-wrapper);
+    margin: 0 auto;
+}
+
+.vf-wrapper >.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: var(--vf-header-size);
+}
+
+.vf-wrapper >.main-content >.left{
+    padding-top: 40px;
+}
+
+.vf-wrapper >.main-content >.right{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.vf-wrapper >.main-content >.right >.image{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}

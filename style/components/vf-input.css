@@ -1,0 +1,20 @@
+.vf-input{
+    font-family: var(--vf-font-family-base);
+    font-size: calc( var(--vf-font-size-base) + 8px );
+    border: none;
+    background: none;
+    border-bottom: 1px solid var(--vf-color-gray-light);
+    outline: none;
+    transition: border-color .5s;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.vf-input:focus{
+    border-color: var(--vf-color-primary);
+}
+
+.vf-input::placeholder{
+    color: var(--vf-color-gray-dark);
+}

@@ -1,0 +1,41 @@
+.vf-login >.vf-wrapper >.main-content >.left{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.radio-buttons {
+    margin-bottom: 42px;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.radio-buttons >.title{
+    font-size: calc(var(--vf-font-size-base) + 8px);
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.radio-buttons >.buttons >.vf-radio{
+    margin-right: 70px;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.main-title {
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.main-title >.up {
+    font-size: calc(var(--vf-font-size-base) + 38px);
+    display: block;
+    margin-bottom: 7px;
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.main-title >.down {
+    font-size: calc(var(--vf-font-size-base) + 22px);
+}
+
+.vf-login >.vf-wrapper >.main-content >.left >.steps {
+    display: block;
+    font-weight: 800;
+    font-size: calc(var(--vf-font-size-base) + 4px);
+    color: var(--vf-color-gray);
+    margin-bottom: 13px;
+}

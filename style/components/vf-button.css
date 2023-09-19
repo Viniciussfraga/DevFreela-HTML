@@ -1,0 +1,17 @@
+.vf-button{
+    font-family: var(--vf-font-family-base);
+    background-color: var(--vf-color-primary);
+    color: white;
+    font-size: calc( var(--vf-font-size-base) + 8px );
+    font-weight: 800;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.5s
+}
+
+.vf-button:hover{
+    background-color: var(--vf-color-primary-light);
+}

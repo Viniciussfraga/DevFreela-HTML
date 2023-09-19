@@ -1,0 +1,14 @@
+:root{
+    /* PRIMARY */
+    --vf-color-primary-light: #004cd8;
+    --vf-color-primary: #0041BE;
+
+    /* DANGER */
+    --vf-color-danger: #FF2222;
+
+    /* GRAY */
+    --vf-color-gray-lighter: #F9FBFD;
+    --vf-color-gray-light: #B8B7B7;
+    --vf-color-gray: #767684;
+    --vf-color-gray-dark: #09090A;
+}

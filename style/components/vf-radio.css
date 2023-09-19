@@ -1,0 +1,52 @@
+/* Classe base vf-radio */
+.vf-radio{
+    position: relative;
+    padding-left:  32px;
+    padding-top: 2px;
+    cursor: pointer;
+    font-size: calc(var(--vf-font-size-base) + 8px);
+    font-family: (var(--vf-font-family-base));
+}
+
+/* Esconde o Radio Button Nativo do Browser */
+.vf-radio > input{
+    opacity: 0;
+    position: absolute;
+    cursor: default;
+}
+
+/* Estilo base do nosso checkmark */
+.vf-radio >.checkmark{
+    display: inline-block;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border: 2px solid var(--vf-color-gray-dark);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Estiliza e preenche o fundo do checkmark quando radiobutton é chechado */
+.vf-radio > input:checked ~ .checkmark {
+    background-color: white;
+    border-color: var(--vf-color-primary);
+}
+
+/* Estilo base do ponto do check */
+.vf-radio >.checkmark:after{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 3px;
+    background-color: var(--vf-color-primary);
+    display: none;
+}
+
+/* Mostra o ponto quando radio button for checkado */
+.vf-radio >input:checked ~ .checkmark::after{
+    display: block;
+}
