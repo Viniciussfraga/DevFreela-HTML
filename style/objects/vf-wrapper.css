@@ -9,6 +9,10 @@
     padding-top: var(--vf-header-size);
 }
 
+.vf-wrapper >.main-content.-one-col{
+    grid-template-columns: 1fr;
+}
+
 .vf-wrapper >.main-content >.left{
     padding-top: 40px;
 }

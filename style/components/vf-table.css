@@ -1,0 +1,86 @@
+.vf-table {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 28px;
+    padding-bottom: 5px;
+}
+
+/* HEAD */
+
+.vf-table >.head {
+    font-size: calc(var(--vf-font-size-base) + 6px);
+    font-weight: 600;
+    color: var(--vf-color-gray-light);
+}
+
+.vf-table >.head >.row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 100px;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: center;
+}
+
+/* BODY */
+
+.vf-table >.body {
+ 
+}
+
+.vf-table >.body >.row {
+    display: grid;
+    padding: 24px 32px;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 100px;
+    border-bottom: 1px solid var(--vf-color-gray-lighter);
+}
+
+.vf-table >.body >.row:first-child {
+    padding-top: 15px;
+}
+
+.vf-table >.body >.row:last-child {
+    border-bottom: none;
+}
+
+/* BODY - TITLE-DESCRIPTION */
+
+.vf-table >.body >.row >.title-description {
+    
+}
+
+.vf-table >.body >.row >.title-description >.title {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.vf-table >.body >.row >.title-description >.description {
+    
+}
+
+/* BODY - PRICE */
+
+.vf-table >.body >.row >.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* BODY - ACTIONS */
+
+.vf-table >.body >.row >.actions {
+    
+}
+
+.vf-table >.body >.row >.actions >.edit {
+    color: var(--vf-color-primary);
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.vf-table >.body >.row >.actions >.delete {
+    color: var(--vf-color-danger);
+    cursor: pointer;
+    font-size: 26px;
+}

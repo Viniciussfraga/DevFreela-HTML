@@ -7,7 +7,8 @@
     --vf-color-danger: #FF2222;
 
     /* GRAY */
-    --vf-color-gray-lighter: #F9FBFD;
+    --vf-color-gray-lightest: #F9FBFD;
+    --vf-color-gray-lighter: rgba(196, 196, 196, 0.35);
     --vf-color-gray-light: #B8B7B7;
     --vf-color-gray: #767684;
     --vf-color-gray-dark: #09090A;

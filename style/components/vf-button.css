@@ -11,6 +11,11 @@
     cursor: pointer;
     transition: background-color 0.5s
 }
+.vf-button.-small{
+    font-size: calc( var(--vf-font-size-base) + 4px );
+    font-weight: 600;
+    padding: 12px 27px;
+}
 
 .vf-button:hover{
     background-color: var(--vf-color-primary-light);

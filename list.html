@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List - VF</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- INIT STYLES ITCSS -->
+    <!-- SETTINGS -->
+    <link rel="stylesheet" href="style/settings/wrapper.css">
+    <link rel="stylesheet" href="style/settings/core.css">
+    <link rel="stylesheet" href="style/settings/color.css">
+    <link rel="stylesheet" href="style/settings/text.css"> 
+    <!-- GENERIC -->
+    <link rel="stylesheet" href="style/generic/reset.css">
+    <link rel="stylesheet" href="style/generic/box-sizing.css">
+    <!-- BASE -->
+    <link rel="stylesheet" href="style/base/html.css">
+    <!-- OBJECTS -->
+    <link rel="stylesheet" href="style/objects/vf-wrapper.css">
+    <!-- COMPONENTS -->
+    <link rel="stylesheet" href="style/components/vf-button.css">
+    <link rel="stylesheet" href="style/components/vf-header.css">
+    <link rel="stylesheet" href="style/components/vf-table.css">
+    <!-- PAGES --> <!--ISSO FOI CRIADO PQ AQ NÃO É TÁ SENDO USADO FRAMEWORK -->
+    <link rel="stylesheet" href="style/pages/list.css">
+    <!-- TRUMPS -->
+
+    <!-- END STYLES ITCSS -->
+
+</head>
+
+<body>
+    <div class="vf-list">
+        <div class="vf-wrapper">
+            <header class="vf-header">
+                <div class="wrapper -has-user">
+                     <div></div> <!--div criada vazia por conta do css de grid da vf-header.css -->
+                    <div class="logo-wrapper">
+                        <img class="image" src="assets/logo/devfreela.svg" alt="Logo da DevFreela">
+                    </div>
+
+                    <div class="user">
+                        <div class="info">
+                            <span class="name">Vinicius Fraga</span>
+                            <span class="role">Desenvolvedor</span>
+                        </div>
+
+                        <div class="photo-wrapper">
+                            <img src="https://media.licdn.com/dms/image/D4D03AQEw4sSI7wzdUQ/profile-displayphoto-shrink_800_800/0/1694193561080?e=1700697600&v=beta&t=vh_oKkR7yXqx1wPij020VmsnbPhrMyH5L7Jn5n5zaes" alt="Foto do usuário">
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+            <main class="main-content -one-col">
+               <div class="title-button">
+                <h1 class="title">Projetos</h1>
+
+                <div class="button-wrapper">
+                    <button class="vf-button -small">Novo Projeto</button>
+                </div>
+               </div>
+
+               <div class="table-wrapper">
+                    <div class="vf-table">
+                        <div class="head">
+                            <div class="row">
+                                <div>Titulo</div>
+                                <div>Custo Total</div>
+                                <div>Ações</div>
+                            </div>
+                        </div>
+
+                        <div class="body">
+                            <div class="row">
+                                <div class="title-description">
+                                    <h6 class="title">Plataforma de educação</h6>
+                                    <p class="description">Uma bela descrição do projeto você pode encontrar nesta parte da tabela</p>
+                                </div>
+                                <div class="price">R$ 1.000.000,00</div>
+                                <div class="actions">
+                                    <span class="edit material-icons">edit</span>
+                                    <span class="delete material-icons">delete_outline</span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="title-description">
+                                    <h6 class="title">Plataforma de educação</h6>
+                                    <p class="description">Uma bela descrição do projeto você pode encontrar nesta parte da tabela</p>
+                                </div>
+                                <div class="price">R$ 1.000.000,00</div>
+                                <div class="actions">
+                                    <span class="edit material-icons">edit</span> 
+                                    <span class="delete material-icons">delete_outline</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

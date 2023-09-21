@@ -1,0 +1,19 @@
+.vf-list >.vf-wrapper >.main-content >.title-button {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.vf-list >.vf-wrapper >.main-content >.title-button >.title {
+    font-size: calc(var(--vf-font-size-base) + 30px);
+    font-weight: 700;
+}
+
+.vf-list >.vf-wrapper >.main-content >.title-button >.button-wrapper {
+ 
+}
+
+.vf-list >.vf-wrapper >.main-content >.table-wrapper{
+    margin-top: 32px;
+}
