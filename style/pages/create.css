@@ -1,0 +1,15 @@
+.vf-create >.vf-wrapper >.main-content >.left >.main-title {
+    font-size: calc(var(--vf-font-size-base) + 32px);
+    font-weight: 800;
+    max-width: 415px;
+    margin-bottom: 45px;
+}
+
+.vf-create >.vf-wrapper >.main-content >.left >.vf-button {
+    margin-top: 40px;
+}
+
+.vf-create >.vf-wrapper >.main-content >.left{
+    max-width: 368px;
+    margin: auto;
+}

@@ -1,6 +1,6 @@
 .vf-login >.vf-wrapper >.main-content >.left{
     max-width: 450px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .vf-login >.vf-wrapper >.main-content >.left >.radio-buttons {
