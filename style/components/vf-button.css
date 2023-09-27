@@ -9,7 +9,8 @@
     border: none;
     width: 100%;
     cursor: pointer;
-    transition: background-color 0.5s
+    transition: background-color 0.5s;
+    text-decoration:none;
 }
 .vf-button.-small{
     font-size: calc( var(--vf-font-size-base) + 4px );

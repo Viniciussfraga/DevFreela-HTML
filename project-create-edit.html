@@ -29,15 +29,17 @@
     <link rel="stylesheet" href="style/components/vf-input.css">
     <link rel="stylesheet" href="style/components/vf-header.css">
     <!-- PAGES --> <!--ISSO FOI CRIADO PQ AQ NÃO É TÁ SENDO USADO FRAMEWORK -->
-    <link rel="stylesheet" href="style/pages/create.css">
+    <link rel="stylesheet" href="style/pages/project-create-edit.css">
     <!-- TRUMPS -->
 
+    <!-- SCRIPTS -->
+    <script src="scripts/project-create-edit.js"></script>
     <!-- END STYLES ITCSS -->
 
 </head>
 
 <body>
-    <div class="vf-create">
+    <div class="vf-project-create-edit">
         <div class="vf-wrapper">
             <header class="vf-header">
                 <div class="wrapper">
@@ -51,17 +53,15 @@
                 <a class="back-btn material-icons" href="list.html">
                     keyboard_arrow_left
                 </a>
-                <div class="left">
-                    <h1 class="main-title">
-                       Vamos cadastrar seu novo projeto!
-                    </h1>
+                <form class="left" onsubmit="createOrEdit()" action="javascript:void(0)">
+                    <h1 class="main-title" id="main-title"></h1>
 
-                    <input class="vf-input" placeholder="Título">
-                    <input class="vf-input" placeholder="Custo Total">
-                    <textarea class="vf-input" placeholder="Descrição"></textarea>
-                    <button class="vf-button">Cadastrar</button>
+                    <input required  id="title" class="vf-input" placeholder="Título">
+                    <input required id="totalCost" type="number" class="vf-input"  placeholder="Custo Total">
+                    <textarea required id="description" class="vf-input"  placeholder="Descrição"></textarea>
+                    <button id="action-button" type="submit" class="vf-button"></button>
 
-                </div>
+                </form>
 
                 <div class="right">
                     <img class="image" src="assets/image/bg-float-cubes.png" alt="Fundo de decoração com 3 cubos com fundo gradient das cores do arco-iris">
